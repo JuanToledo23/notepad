@@ -1,0 +1,23 @@
+<div class="login-container">
+    <h2>Inicia Sesión</h2>
+
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <mat-form-field>
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="juan@ejemplo.com" formControlName="email" required>
+        </mat-form-field>
+        <br/><br/>
+        <mat-form-field>
+            <mat-label>Contraseña</mat-label>
+            <input matInput [type]="hide ? 'password' : 'text'" formControlName="password" required>
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide" type="button">
+                <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+        </mat-form-field>
+        <label class="coment-error" *ngIf="error">* Verifica tu correo y contraseña.</label>
+        <br/><br/>
+        <button mat-flat-button color="primary" type="submit" [disabled]="!loginForm.valid">Ingresar</button>
+        <br/><br/>
+        <label class="link" routerLink="/signUp">Registrate</label>
+    </form>
+</div>

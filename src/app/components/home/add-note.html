@@ -1,0 +1,19 @@
+<h2 mat-dialog-title>Agregar Nota</h2>
+<mat-dialog-content class="mat-typography">
+  <mat-form-field appearance="fill">
+    <mat-label>Titulo</mat-label>
+    <input matInput [(ngModel)]="title" oninput="this.value = this.value.toUpperCase()">
+  </mat-form-field>
+  <label class="coment" *ngIf="validations[0]">* El titulo no puede ser un correo electronico.</label>
+  <br /><br />
+  <mat-form-field appearance="fill">
+    <mat-label>Descripción</mat-label>
+    <textarea matInput [(ngModel)]="description" (keypress)="alpha($event)"></textarea>
+  </mat-form-field>
+  <label class="coment" *ngIf="validations[1]">* La descripción tiene que tener minimo 25 y maximo 150
+    caracteres.</label>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Cancelar</button>
+  <button mat-button (click)="close()" cdkFocusInitial>Agregar</button>
+</mat-dialog-actions>

@@ -1,0 +1,45 @@
+.cards-container {
+    width: 95%;
+    margin: 15px auto;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  grid-gap: 1rem;
+  margin: 10px;
+}
+
+.card {
+  border-radius: 4px;
+  padding: .5rem;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  color: #5d5e5e;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: unset !important;
+  padding-right: 10px;
+}
+
+.coment {
+  color: red;
+}
+
+.header-card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

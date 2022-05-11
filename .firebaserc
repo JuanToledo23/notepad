@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "notepad-auth-60de8": {
+      "hosting": {
+        "notepad": [
+          "notepad-auth-60de8"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "notepad-auth-60de8"
+  }
+}
