@@ -109,8 +109,8 @@
             "prerender": false,
             "ssr": false,
             "browserTarget": "notepad:build:production",
-            "firebaseProject": "notepad-auth-60de8",
-            "firebaseHostingSite": "notepad-auth-60de8"
+            "firebaseProject": "prueba-paloit-crud-notas",
+            "firebaseHostingSite": "prueba-paloit-crud-notas"
           }
         }
       }

@@ -1,11 +1,11 @@
 export const environment = {
   firebase: {
-    projectId: 'notepad-auth-60de8',
-    appId: '1:465104867356:web:69c261c5ef22ef634a4fd9',
-    storageBucket: 'notepad-auth-60de8.appspot.com',
-    apiKey: 'AIzaSyBCgmZppxXMhMheep0hTnZX0hs1M1woWDc',
-    authDomain: 'notepad-auth-60de8.firebaseapp.com',
-    messagingSenderId: '465104867356',
+    apiKey: "AIzaSyBpTlYcvn4MWg8XbsZa-7ZUuHnABcVzIpg",
+    authDomain: "prueba-paloit-crud-notas.firebaseapp.com",
+    projectId: "prueba-paloit-crud-notas",
+    storageBucket: "prueba-paloit-crud-notas.appspot.com",
+    messagingSenderId: "798034119380",
+    appId: "1:798034119380:web:53889a1359253e2eb98941"
   },
   production: true
 };
