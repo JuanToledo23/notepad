@@ -1,4 +1,14 @@
-# Notepad
+# Prueba técnica Palo IT, app para administrar notas
+
+Prueba tecnica Palo IT, app para administrar notas (CRUD) integrado con [FireStore](https://firebase.google.com/products/firestore?hl=es-419) como base de datos NoSQL y desplegado en Firebase, login con Authentication de Firebase con correo y contraseña, cada usuario crea sus propias notas y quedan guardadas en Firestore.
+ 
+## DEMO
+
+[https://prueba-paloit-crud-notas.web.app/](https://prueba-paloit-crud-notas.web.app/)
+
+## Maquetado "Cotizador de Credito Banco Azteca" interactivo Grupo Salinas
+
+Utilizar version de [NodeJS 16.10](https://nodejs.org/dist/v16.10.0/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
